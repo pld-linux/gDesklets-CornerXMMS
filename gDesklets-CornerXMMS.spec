@@ -1,5 +1,5 @@
 
-%define	pname	CornerXMMS
+%define		pname	CornerXMMS
 
 Summary:	A fancy desklet that allows you to control XMMS from the desktop
 Summary(pl):	Ozdobny desklet pozwalaj±cy sterowaæ XMMS-em z pulpitu
@@ -19,8 +19,8 @@ Provides:	gDesklets-display
 Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_sensorsdir	%{_datadir}/gdesklets/Sensors
-%define _displaysdir	%{_datadir}/gdesklets/Displays
+%define		_sensorsdir	%{_datadir}/gdesklets/Sensors
+%define		_displaysdir	%{_datadir}/gdesklets/Displays
 
 %description
 A fancy desklet that allows you to control XMMS from the desktop.
