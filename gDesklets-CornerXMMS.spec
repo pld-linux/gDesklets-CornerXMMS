@@ -5,7 +5,7 @@ Summary:	A fancy desklet that allows you to control XMMS from the desktop
 Summary(pl):	Ozdobny desklet pozwalaj±cy sterowaæ XMMS-em z pulpitu
 Name:		gDesklets-%{pname}
 Version:	0.0.5
-Release:	4
+Release:	5
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/%{pname}-%{version}.tar.bz2
@@ -20,8 +20,8 @@ Provides:	gDesklets-display
 Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_sensorsdir	%{_datadir}/gdesklets/Sensors
-%define		_displaysdir	%{_datadir}/gdesklets/Displays
+%define		_sensorsdir	%{_libdir}/gdesklets/Sensors
+%define		_displaysdir	%{_libdir}/gdesklets/Displays
 
 %description
 A fancy desklet that allows you to control XMMS from the desktop.
