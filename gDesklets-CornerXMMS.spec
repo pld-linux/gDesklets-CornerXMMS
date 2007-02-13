@@ -2,7 +2,7 @@
 %define		pname	CornerXMMS
 
 Summary:	A fancy desklet that allows you to control XMMS from the desktop
-Summary(pl.UTF-8):   Ozdobny desklet pozwalający sterować XMMS-em z pulpitu
+Summary(pl.UTF-8):	Ozdobny desklet pozwalający sterować XMMS-em z pulpitu
 Name:		gDesklets-%{pname}
 Version:	0.0.5
 Release:	5
